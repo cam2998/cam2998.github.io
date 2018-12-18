@@ -1,0 +1,8 @@
+.nav-bar {
+  background-color: #8CB3B8;
+  text-align: center;
+  margin-top: 0px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: -webkit-linear-gradient(top, powderblue 0%, #8CB3B8 100%);
+}
