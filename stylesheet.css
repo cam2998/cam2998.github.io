@@ -1,4 +1,43 @@
-body {
-  background: url("background.jpg") no-repeat center center fixed;
-  background-size: cover;
+.body {
+  margin-top: 45px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 45px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background: -webkit-linear-gradient(top, gray 0%, black 40%);
+  z-index: 1 ;
+}
+
+.nav-button {
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 8%;
+  height: 35px;
+  float: left;
+  margin-right: 2px;
+}
+
+a:hover, .nav-contact:hover {
+background: -webkit-linear-gradient(top, black 0%, gray 150%);
+}
+
+.nav-contact{
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  width: 8%;
+  height: 35px;
+  float: right;
+  margin-right: 2px;
 }
